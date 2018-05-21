@@ -16,5 +16,8 @@
   <author href="https://build.prueba.com" email="support@prueba.com">
      Prueba
   </author>
+    
+    
+  <plugin name="cordova-plugin-camera" spec="4.0.3" />
 
 </widget>
