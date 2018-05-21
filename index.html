@@ -196,5 +196,20 @@
     <script src="js/bootstrap.min.js" charset="utf-8"></script>
     <script src="js/own.js" charset="utf-8"></script>
     <script src="js/navbar.js" charset="utf-8"></script>
+  
+    <script>
+      
+     document.addEventListener("deviceready", onDeviceReady, false);
+     function onDeviceReady() {
+         var cameraOptions = {
+           quality: 100
+         };
+     navigator.camera.getPicture(cameraSuccess, cameraError, cameraOptions);
+       
+       function cameraSuccess(imageData) {
+         var image = document.getElementById('myimage');
+         
+      
+    </script>
   </body>
   </html>
